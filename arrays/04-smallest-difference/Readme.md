@@ -23,7 +23,7 @@ arrayTwo = [26, 134, 135, 15, 17]
 
 ## Time Complexity
 
-Worst case time complexity is O(n + m).
+Worst case time complexity is O(n + m) + Sort Complexity - in this case O(n log(n)) (Using javascript's native array.sort)
 
 For avg and best case - early exit should be considered.
 
